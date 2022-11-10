@@ -8,6 +8,7 @@ class MycroftTest(MycroftSkill):
     @intent_file_handler('test.mycroft.intent')
     def handle_test_mycroft(self, message):
         intensity = ''
+        intensity = self.settings.get('my_selected_option')
 
         self.speak_dialog('test.mycroft', data={
             'intensity': intensity
