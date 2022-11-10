@@ -1,0 +1,18 @@
+{
+    "skillMetadata": {
+        "sections": [
+            {
+                "name": "Select Field Example",
+                "fields": [
+                    {
+                      "name": "my_selected_option",
+                      "type": "select",
+                      "label": "Select an option",
+                      "options": "Option 1|option_one;Option 2|option_two;Option 3|option_three",
+                      "value": "option_one"
+                    }
+                ]
+            }
+        ]
+    }
+}
