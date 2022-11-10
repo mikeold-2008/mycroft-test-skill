@@ -5,5 +5,5 @@ skillMetadata:
           - name: my_selected_option
             type: select
             label: Select a region
-            options: London|option_london;North Scotland 2|option_northScotland;South Scotland|option_southScotland;North West England|option_northWestEngland;North East England|option_northEastEngland;Yorkshire|option_yorkshire;North Wales|option_northWales;South Wales|option_southWales;West Midlands|option_westMidlands;East Midlands|option_eastMidlands;East England|option_eastEngland;South West England|option_southWestEngland;South England|option_southEngland;South East England|option_southEastEngland;
+            options: London|option_london;North Scotland|option_northScotland;South Scotland|option_southScotland;North West England|option_northWestEngland;North East England|option_northEastEngland;Yorkshire|option_yorkshire;North Wales|option_northWales;South Wales|option_southWales;West Midlands|option_westMidlands;East Midlands|option_eastMidlands;East England|option_eastEngland;South West England|option_southWestEngland;South England|option_southEngland;South East England|option_southEastEngland;
             value: option_london
