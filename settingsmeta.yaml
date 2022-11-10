@@ -1,13 +1,13 @@
 
 skillMetadata:
   sections:
-    - name: Select Region 
-      fields:
-        - name: regionSelectValue
-          type: select
-          label: Please choose the region you want carbon data for
-          value: 1
-          placeholder: England
+      name: Select Region
+        fields:
+          - name: my_selected_option
+            type: select
+            label: Select an option
+            options: England|option_one;Other place|option_two;Yet another place|option_three
+            value: option_one
     - name: Login << Name of another section
       fields:
         - type: label
