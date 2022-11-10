@@ -1,10 +1,9 @@
-
 skillMetadata:
-  sections:
-      name: Select Region
+   sections:
+      - name: Select Field Example
         fields:
           - name: my_selected_option
             type: select
             label: Select an option
-            options: England|option_one;Other place|option_two;Yet another place|option_three
+            options: Option 1|option_one;Option 2|option_two;Option 3|option_three
             value: option_one
